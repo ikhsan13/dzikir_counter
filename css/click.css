@@ -1,0 +1,71 @@
+
+
+body {
+	background-image:url(../img/url.jpe);
+	
+}
+.ui-mobile-viewport{
+    background: url("../img/url.jpe") no-repeat;
+    background-size: 100% 100% !important;
+}
+.ui-page{
+    background: url("../img/url.jpe") no-repeat;
+    background-size: 100% 100% 
+}
+.ui-overlay-a{
+    background:#222 !important;
+}
+#border {
+	font-size: 90px;
+	color:  #FFFF00;
+	width:98%;
+	height:120px;
+	border:5px solid yellow;
+	box-shadow: 10px 10px 10px yellow;
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+	position: relative;
+	top:-40px;
+    
+} 
+
+#submit {
+	display:block; 
+	width: 126px; 
+	height: 180px; 
+	background-image: url(../img/a.png); 
+	-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px; 
+	border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	position: relative;
+	top:-60px;
+}
+#beforeReset {
+	position: relative;
+	top:-70px;	
+}
+#reset{
+	width: 0;
+  	height: 0;
+  	border-bottom: 60px solid black;
+  	border-top: 60px solid black;
+  	border-left: 60px solid yellow;
+  	border-right: 60px solid yellow;
+  	-moz-border-radius: 60px; 
+  	-webkit-border-radius: 60px; 
+  	border-radius: 60px;
+  	position: relative;
+	top:-65px;
+}
+#afterReset {
+	position: relative;
+	top:-60px;
+}
+
+
+
